@@ -83,6 +83,7 @@ public class NewsInteractionCounter {
      */
     static private Map<Integer,String> getTypeNames(String filename){
         Map<Integer, String> numToName = new HashMap<Integer, String>();
+
         try {
             File myObj = new File(filename);
             Scanner myReader = new Scanner(myObj);

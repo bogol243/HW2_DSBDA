@@ -25,7 +25,7 @@ public class SparkRDDApplication {
         log.debug("Application started");
         SparkSession ss = SparkSession
                 .builder()
-                .master("local")
+                .master("yarn")
                 .appName("SparkRDDApplication")
                 .getOrCreate();
 
